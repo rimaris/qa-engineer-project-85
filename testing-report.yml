@@ -1,0 +1,84 @@
+---
+- summary: |
+    Регистрация по email и паролю (позитивный сценарий)
+  status: pass
+
+- summary: |
+    Вход по email и паролю (валидные данные)
+  status: pass
+
+- summary: |
+    Авторизация через GitHub 
+  status: pass
+
+- summary: |
+    Авторизация через Discord
+  status: pass
+
+- summary: |
+    Восстановление пароля по email
+  status: fail
+
+- summary: |
+    Гостевой режим — запуск «простой битвы» без регистрации
+  status: pass
+
+- summary: |
+    Создание матча против бота с выбором сложности и контроля времени
+  status: pass
+
+- summary: |
+    Создание матча со случайным соперником
+  status: pass
+
+- summary: |
+    Выбор задачи по тегу
+  status: pass
+
+- summary: |
+    Смена языка программирования во время игры
+  status: pass
+
+- summary: |
+    Запуск тестов — успешное прохождение
+  status: pass
+
+- summary: |
+    Запуск тестов — неуспешное прохождение
+  status: pass
+
+- summary: |
+    Кнопка «Сдаться» завершает игру с поражением
+  status: pass
+
+- summary: |
+    Сброс кода к исходному шаблону
+  status: pass
+
+- summary: |
+    Переключение темы терминала (тёмная/светлая)
+  status: pass
+
+- summary: |
+    Игровой чат — отправка и получение сообщений
+  status: pass
+
+- summary: |
+    Просмотр таблицы лидеров
+  status: pass
+
+- summary: |
+    Нельзя редактировать код в редакторе соперника
+  status: pass
+
+- summary: |
+    Вход по email и паролю (неверный пароль)
+  status: pass
+
+- summary: |
+    Регистрация по email — повторное использование существующего email
+  status: pass
+
+- summary: |
+    Просмотр истории игр
+  status: pass
